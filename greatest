@@ -1,17 +1,17 @@
-import java.util.Scanner;
+import java.util.*;
 
 class LargestAmongFive {
     public static void main(String[] args) {
     
-        Scanner scanner = new Scanner(System.in);
+        Scanner sc = new Scanner(System.in);
 
      
         System.out.println("Enter five numbers:");
-        double num1 = scanner.nextDouble();
-        double num2 = scanner.nextDouble();
-        double num3 = scanner.nextDouble();
-        double num4 = scanner.nextDouble();
-        double num5 = scanner.nextDouble();
+        double num1 = sc.nextDouble();
+        double num2 = sc.nextDouble();
+        double num3 = sc.nextDouble();
+        double num4 = sc.nextDouble();
+        double num5 = sc.nextDouble();
 
 
         double largest = num1;

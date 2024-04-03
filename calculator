@@ -31,16 +31,16 @@ import java.util.*;
                 break;
             case 2:
                 result = num1 - num2;
-                System.out.println("Result: " + num1 + result);
+                System.out.println("Result: "  + result);
                 break;
             case 3:
                 result = num1 * num2;
-                System.out.println("Result: " + num1+ result);
+                System.out.println("Result: "+ result);
                 break;
             case 4:
                 if (num2 != 0) {
                     result = num1 / num2;
-                    System.out.println("Result: " + num1+ result);
+                    System.out.println("Result " +result);
                 } else {
                     System.out.println("Error: Division by zero is not allowed.");
                 }

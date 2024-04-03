@@ -1,13 +1,13 @@
-mport java.util.Scanner;
+import java.util.*;
 
 class GradeCalculator {
     public static void main(String[] args) {
     
-        Scanner scanner = new Scanner(System.in);
+        Scanner sc = new Scanner(System.in);
 
 
         System.out.print("Enter the student's percentage: ");
-        double percentage = scanner.nextDouble();
+        double percentage = sc.nextDouble();
 
 
         char grade;

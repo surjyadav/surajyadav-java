@@ -16,13 +16,13 @@ class GradeCalculator {
             return;
         } else if (percentage >= 90) {
             grade = 'A';
-        } else if (percentage >= 80) {
+        } else if (percentage >= 80 && percentage<90) {
             grade = 'B';
-        } else if (percentage >= 70) {
+        } else if (percentage >= 70 && percentage<80) {
             grade = 'C';
-        } else if (percentage >= 60) {
+        } else if (percentage >= 60 && percentage<70) {
             grade = 'D';
-        } else if (percentage >= 50) {
+        } else if (percentage >= 50 && percentage<60) {
             grade = 'E';
         } else {
             grade = 'F';
@@ -30,6 +30,6 @@ class GradeCalculator {
 
         System.out.println("The student's grade is: " + grade);
 
-        scanner.close();
+        
     }
 }
